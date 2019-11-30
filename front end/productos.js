@@ -26,7 +26,11 @@ Vue.component('productos', {
     el: '#app',
     data: {
         mensaje:'',
-        status:''
+        status:'',
+        empresa:'',
+        titulo:'',
+        descripcion:'',
+        moneda:''
     },
     methods:{
         validateUser(){
